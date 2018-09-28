@@ -52,11 +52,11 @@ df = db.abcd.aggregate([
 ]); 
 
 
-# method to remove punctuations from sentences.
+# # Remove punctuations from sentences.
 def remove_punctuation(text):
     return text.translate(tbl)
  
-#initialize the stemmer
+#Initialize the stemmer functions
 stemmer = LancasterStemmer()
 
 data = None
