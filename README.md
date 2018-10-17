@@ -16,7 +16,7 @@ Training dataset: 33,000 number of vulnerability names and categories from track
 
 <h3>1. Data preprocessing.</h3>
 <p>- It is an unstructured dataset(name), which is not organized in the model.</p> 
-<p>- Natural Language Processing is the application that drives the meaning from text inputs.</p>
+<p>- Natural Language Processing is the application that helps to find trains from the text.</p>
 
 - Stemming
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The processing of reducing infected(or derived) words to their word root(Have, has, having --> hav).</p>
@@ -29,6 +29,10 @@ Training dataset: 33,000 number of vulnerability names and categories from track
 
 - Bag of words 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Create a unique list of word numbers.(ex-['the','weather','is','nice']-->[1,2,3,7])</p>
+                                                                              
+- Word2Vector model
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The basic idea: The semantically similar words are mapped into nearby center words.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Deep learning trains the similar words(input words) to mpa into center words.</p>
 
 - padding 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Add extra cells surrounding the input to fix the size of lists.</p>
@@ -52,4 +56,5 @@ Training dataset: 33,000 number of vulnerability names and categories from track
 <h2>Reference</h2>
 <p>- https://github.com/hunkim/DeepLearningZeroToAll</p> 
 <p>- https://github.com/golbin/TensorFlow-Tutorials</p> 
-<p>- https://github.com/tflearn/tflearn/tree/master/examples</p> 
+<p>- https://github.com/tflearn/tflearn/tree/master/examples</p>
+<p>- https://en.wikipedia.org/wiki/Natural_language_processing</p>  
